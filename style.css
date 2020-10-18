@@ -122,7 +122,7 @@ body{
 }
 .pop-up{
     width: 250px;
-    visibility: hidden;
+    display: none;
     padding: 20px 30px;
     position: absolute;
     z-index: 1;
@@ -142,7 +142,7 @@ body{
 }
 
 .pop-up.show{
-    visibility: visible;
+    display: flex;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
 }
@@ -176,6 +176,7 @@ body{
     .container{
         min-height: 100vh;
         height: auto;
+        /* width: 100%; */
     }
 
     .furniture-img{
